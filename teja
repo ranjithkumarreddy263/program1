@@ -1,0 +1,20 @@
+ public class Bill
+ {
+	 public static void main(String args[])
+	 {
+		Billpay obj=new Billpay();
+		int y=obj.currents(120);
+		System.out.println(y);
+		 
+	 }
+	 
+ }
+ class Billpay
+ {
+	 int currents(int x){
+	 int z=120*2;
+	 return z;
+	 
+	 
+ }}
+ 
